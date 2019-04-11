@@ -32,8 +32,8 @@
     </div>
 
     <div>
-        <label for="startTime">Start time:</label>
-        <input type="datetime-local" id="startTime" name="startTime"/>
+        <label for="startTime">Start time [yyyy-mm-ddThh:mm]:</label>
+        <input type="datetime-local" id="startTime" name="startTime" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}"/>
     </div>
 
     <div>
